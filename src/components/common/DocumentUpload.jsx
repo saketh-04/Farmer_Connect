@@ -1,12 +1,16 @@
 import { useState } from 'react';
 import api from '../../utils/api';
 
+// Component to handle user document submission for verification
 const DocumentUpload = ({ onUploadSuccess }) => {
+// State management
     const [documentType, setDocumentType] = useState('aadhaar');
     const [documentNumber, setDocumentNumber] = useState('');
     const [uploading, setUploading] = useState(false);
     const [message, setMessage] = useState('');
 
+    
+// Available document types
     const documentTypes = [
         { value: 'aadhaar', label: 'Aadhaar Card' },
         { value: 'pan', label: 'PAN Card' },
