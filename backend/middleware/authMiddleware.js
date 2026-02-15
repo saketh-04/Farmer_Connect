@@ -45,4 +45,3 @@ const verifiedUser = (req, res, next) => {
 };
 
 module.exports = { protect, verifiedUser };
-
