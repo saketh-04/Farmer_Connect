@@ -1,10 +1,10 @@
-# 🌾 Farmer Connect
+#  Farmer Connect
 
 A Smart Agricultural Marketplace that connects farmers and buyers with AI-powered pricing, structured bidding, secure negotiation, and transparent transaction workflows.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Farmer Connect is a digital marketplace platform designed to:
 
@@ -20,44 +20,44 @@ The system follows a scalable full-stack architecture with secure authentication
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔐 User Identity & Access Control
+###  User Identity & Access Control
 - Mobile OTP-based authentication
 - Role-Based Access Control (Farmer, Buyer, Admin)
 - KYC verification workflow
 - Secure session management (JWT)
 
-### 🌾 Crop Listing & Quality Representation
+###  Crop Listing & Quality Representation
 - Create and manage listings
 - Upload crop images
 - Capture standardized quality attributes
 - AI-based price prediction
 
-### 💰 Bidding & Negotiation
+###  Bidding & Negotiation
 - Place bids on listings
 - Send offers
 - Counter-offer negotiation system
 - Structured order confirmation
 
-### 📦 Order Management
+###  Order Management
 - Order lifecycle: Pending → Confirmed → Completed
 - Order tracking
 - Transaction history
 
-### ⚖️ Dispute Handling
+###  Dispute Handling
 - Raise disputes
 - Admin review & resolution
 - Transparent dispute status tracking
 
-### 🔔 Notification System
+### Notification System
 - Real-time notifications
 - Order updates
 - Dispute updates
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ![Architecture Diagram](docs/Architecture%20diagram.png)
 
@@ -69,31 +69,31 @@ The system follows a scalable full-stack architecture with secure authentication
 
 ---
 
-## 📌 Use Case Diagram
+##  Use Case Diagram
 
 ![Use Case Diagram](docs/use%20case.png)
 
 ---
 
-## 🔄 Activity Diagram
+##  Activity Diagram
 
 ![Activity Diagram](docs/activity.png)
 
 ---
 
-## 📡 Sequence Diagram
+##  Sequence Diagram
 
 ![Sequence Diagram](docs/sequence.png)
 
 ---
 
-## 🧩 Class Diagram
+## Class Diagram
 
 ![Class Diagram](docs/class.png)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### 🔹 Frontend
 - React / Vite
@@ -119,7 +119,7 @@ The system follows a scalable full-stack architecture with secure authentication
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 Farmer_Connect/
 │
 ├── backend/
@@ -147,7 +147,7 @@ Farmer_Connect/
 
 ---
 
-## 🔐 Role-Based Access Control (RBAC)
+##  Role-Based Access Control (RBAC)
 
 | Role   | Permissions |
 |--------|------------|
@@ -159,7 +159,7 @@ Access restrictions are enforced at both UI and API levels.
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the Repository
 
@@ -178,7 +178,7 @@ npm install
 npm run dev
 
 
-🔍 Security Features
+ Security Features
 
 OTP-based authentication
 
@@ -192,7 +192,7 @@ Secure password handling
 
 Protected API routes
 
-📈 Future Enhancements
+ Future Enhancements
 
 Real-time bidding using WebSockets
 
