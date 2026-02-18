@@ -120,4 +120,91 @@ The system follows a scalable full-stack architecture with secure authentication
 ---
 
 ## 📂 Project Structure
+Farmer_Connect/
+│
+├── backend/
+│ ├── controllers/
+│ ├── services/
+│ ├── routes/
+│ ├── models/
+│ └── config/
+│
+├── frontend/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ └── assets/
+│
+├── docs/
+│ ├── Architecture diagram.png
+│ ├── Schema.png
+│ ├── activity.png
+│ ├── class.png
+│ ├── sequence.png
+│ └── use case.png
+│
+└── README.md
+
+---
+
+## 🔐 Role-Based Access Control (RBAC)
+
+| Role   | Permissions |
+|--------|------------|
+| Farmer | Create listings, manage orders |
+| Buyer  | Search listings, place bids, negotiate |
+| Admin  | Approve KYC, manage disputes, update orders |
+
+Access restrictions are enforced at both UI and API levels.
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Farmer_Connect.git
+cd Farmer_Connect
+
+2️⃣ Backend Setup
+cd backend
+npm install
+npm start
+
+3️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+
+🔍 Security Features
+
+OTP-based authentication
+
+JWT-based session management
+
+Input validation & sanitization
+
+Role-based authorization
+
+Secure password handling
+
+Protected API routes
+
+📈 Future Enhancements
+
+Real-time bidding using WebSockets
+
+Blockchain-based transaction logs
+
+Escrow payment integration
+
+Advanced AI pricing model
+
+Mobile app support
+
+📜 License
+
+This project is licensed under the MIT License.
 
